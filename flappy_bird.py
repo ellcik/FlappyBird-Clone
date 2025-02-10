@@ -351,7 +351,6 @@ while True:
             hit_sound.play()
             show_game_over_dialog()
 
-        # Броење на поени
         for pipe in pipes:
             if pipe.rect.x + pipe_width < bird_x and not pipe.passed:
                 pipe.passed = True
