@@ -366,4 +366,4 @@ while True:
     screen.blit(level_text, (WIDTH // 2 - level_text.get_width() // 2, 10))
 
     pygame.display.update()
-    pygame.time.delay(30)
+    pygame.time.delay(25)
