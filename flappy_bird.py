@@ -41,13 +41,19 @@ score = 0
 game_over = False
 
 levels = {
-    1: {"pipes": 5, "target_score": 10, "gap": 170},
-    2: {"pipes": 10, "target_score": 20, "gap": 160},
-    3: {"pipes": 15, "target_score": 30, "gap": 150},
-    4: {"pipes": 20, "target_score": 40, "gap": 140}
+    1: {"pipes": 3, "target_score": 6, "gap": 185},
+    2: {"pipes": 5, "target_score": 10, "gap": 180},
+    3: {"pipes": 7, "target_score": 14, "gap": 175},
+    4: {"pipes": 10, "target_score": 20, "gap": 170},
+    5: {"pipes": 12, "target_score": 24, "gap": 165},
+    6: {"pipes": 15, "target_score": 30, "gap": 160},
+    7: {"pipes": 18, "target_score": 36, "gap": 155},
+    8: {"pipes": 20, "target_score": 40, "gap": 150},
+    9: {"pipes": 22, "target_score": 44, "gap": 145},
+    10: {"pipes": 25, "target_score": 50, "gap": 140}
 }
 
-max_level = 4
+max_level = 10
 
 flap_sound = pygame.mixer.Sound("Sounds/flap.wav")
 hit_sound = pygame.mixer.Sound("Sounds/hit.wav")
